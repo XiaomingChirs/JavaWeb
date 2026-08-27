@@ -6,5 +6,60 @@
 </head>
 <body>
 
+<font color="#a52a2a" face="宋体" size="5">
+    我是字体标签
+    <br/>
+    我是&lt;br&gt;&nbsp;标签
+</font>
+<h1 align="left">标题1</h1>
+<h2 align="center">标题2</h2>
+<h3 align="right">标题3</h3>
+
+<a href="https://github.com/XiaomingChirs/JavaWeb/tree/main" target="_blank">百度</a>
+<ul type="none">
+    <li>赵一</li>
+    <li>赵二</li>
+    <li>赵三</li>
+    <li>赵四</li>
+
+
+</ul>
+<ol>
+    <li>赵一</li>
+    <li>赵二</li>
+    <li>赵三</li>
+    <li>赵四</li>
+</ol>
+<img src="./实验a.png" width="100" height="120" border="1" alter="图片找不到"/>
+
+<img src="../实验a.png" width="100" height="120" border="1"/>
 </body>
 </html>
+
+<!--标签之间不能交叉嵌套，<div><span></span></div>-->
+<!--标签必须有闭合，<body/>-->
+<!--属性必须有值，属性值必须加引号，<font color="blue“>-->
+<!--注释里面不能嵌套，不能注释里面加注释-->
+
+
+<!--常用标签， font 字体标签，然后再选属性，color颜色，face字体，size大小-->
+<!--特殊字符，把<br>这种换行标签，变成文本，转换成字符显示在页面上-->
+<!--就需要用到字符实体代替了，比如<用&lt;代替-->
+<!--连续的空白字符，只保留一个空格，空格的特殊字符&nbsp；-->
+<!--标题标签，只有h1到h6，h1最大，h6最小，有对齐属性align，一般默认左对齐，有left，center，right-->
+<!--超链接，在网页中，所有点击之后可以跳转的内容都是超链接-->
+<!--a标签,加href（Hypertext Reference）引用地址-->
+<!--超链接打开一个新的窗口，用target属性,设置哪个目标进行跳转_self表示当前页面，_blank打开新窗口跳转，正常是默认_self-->
+<!--列表标签，无序列表，有序列表前面多一个序号而已，定义列表-->
+<!--无序列表显示四大天王-->
+<!--ul是无序表，ol为有序表，li是list items，type决定无序表前面的符号种类-->
+<!--img标签，可在html上面显示图片,src属性，设置图片的路径，在web中分为相对路径和绝对路径-->
+<!--JavaSE中，分相对路径和绝对路径。 相对路径：从工程名开始算。绝对路径：盘符：/目录/文件名
+在web中。相对路径 .表示当前文件所在目录
+                ..表示当前文件所在的上一级目录
+               文件名 表示当前文件所在目录的文件，相当于./文件名    ./ 可以省略
+绝对路径： http：//ip:port/工程名/资源路径
+ width ,height,border三种属性，alt属性设置当指定路径找不到图片时，用来代替显示的文本内容
+-->
+
+<!--表格标签  -->
